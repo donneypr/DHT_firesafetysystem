@@ -1,4 +1,3 @@
-
 function [DisplayState] = InsideCondition(temperature,humidity)
 unsafe = 40
 if temperature >= 40 || humidity <= 40
